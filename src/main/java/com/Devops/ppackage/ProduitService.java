@@ -1,11 +1,11 @@
-package com.Devops.package;
+package com.Devops.ppackage;
 
 import java.util.HashMap;
 import java.util.Map;
 
 public class ProduitService {
 
-    private final Map<Long, Produit> produits = new HashMap<>();
+    private final Map<Long,Produit> produits = new HashMap<>();
     private long nextId = 1;
 
     // Create
